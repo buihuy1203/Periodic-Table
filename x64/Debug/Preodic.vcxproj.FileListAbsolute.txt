@@ -1,0 +1,16 @@
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.vcxproj.AssemblyReference.cache
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.Elements_Index.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.vcxproj.GenerateResource.cache
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.exe
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.H.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.Ac.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.Cm.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic-master\x64\Debug\Preodic.Dy.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.vcxproj.AssemblyReference.cache
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.Ac.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.Cm.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.Dy.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.Elements_Index.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.H.resources
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.vcxproj.GenerateResource.cache
+E:\Bai Tap\Ky Thuat Lap Trinh\Preodic\x64\Debug\Preodic.exe
