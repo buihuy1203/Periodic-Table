@@ -2416,480 +2416,476 @@ private: System::ComponentModel::IContainer^ components;
 #pragma endregion
 private: System::Void listBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
 	if (listBox1->Text == "Ac Actinium") {
-		Ac obj;
-		obj.ShowDialog();
+		Ac^ obj = gcnew Ac();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ag Silver") {
-		Ag obj;
-		obj.ShowDialog();
+		Ag^ obj = gcnew Ag();
+		obj->Show();
 	}
 	if (listBox1->Text == "Al Aluminum") {
-		Al obj;
-		obj.ShowDialog();
+		Al^ obj = gcnew Al();
+		obj->Show();
 	}
 	if (listBox1->Text == "Am Americium") {
-		Am obj;
-		obj.ShowDialog();
+		Am^ obj = gcnew Am();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ar Argon") {
-		Ar obj;
-		obj.ShowDialog();
+		Ar^ obj = gcnew Ar();
+		obj->Show();
 	}
 	if (listBox1->Text == "As Arsenic") {
-		As obj;
-		obj.ShowDialog();
+		As^ obj = gcnew As();
+		obj->Show();
 	}
 	if (listBox1->Text == "At Astatine") {
-		At obj;
-		obj.ShowDialog();
+		At^ obj = gcnew At();
+		obj->Show();
 	}
 	if (listBox1->Text == "Au Gold") {
-		Au obj;
-		obj.ShowDialog();
+		Au^ obj = gcnew Au();
+		obj->Show();
 	}
 	if (listBox1->Text == "B Boron") {
-		B obj;
-		obj.ShowDialog();
+		B^ obj = gcnew B();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ba Barium") {
-		Ba obj;
-		obj.ShowDialog();
+		Ba^ obj = gcnew Ba();
+		obj->Show();
 	}
 	if (listBox1->Text == "Be Beryllium") {
-		Be obj;
-		obj.ShowDialog();
+		Ba^ obj = gcnew Ba();
+		obj->Show();
 	}
 	if (listBox1->Text == "Bh Bohrium") {
-		Bh obj;
-		obj.ShowDialog();
+		Bh^ obj = gcnew Bh();
+		obj->Show();
 	}
 	if (listBox1->Text == "Bi Bismuth") {
-		Bi obj;
-		obj.ShowDialog();
+		Bi^ obj = gcnew Bi();
+		obj->Show();
 	}
 	if (listBox1->Text == "Bk Berkelium") {
-		Bk obj;
-		obj.ShowDialog();
+		Bk^ obj = gcnew Bk();
+		obj->Show();
 	}
 	if (listBox1->Text == "Br Bromine") {
-		Br obj;
-		obj.ShowDialog();
+		Br^ obj = gcnew Br();
+		obj->Show();
 	}
 	if (listBox1->Text == "C Carbon") {
-		C obj;
-		obj.ShowDialog();
+		C^ obj = gcnew C();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ca Calcium") {
-		Ca obj;
-		obj.ShowDialog();
+		Ca^ obj = gcnew Ca();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cd Cadmium") {
-		Cd obj;
-		obj.ShowDialog();
+		Cd^ obj = gcnew Cd();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ce Cerium") {
-		Ce obj;
-		obj.ShowDialog();
+		Ce^ obj = gcnew Ce();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cf Californium") {
-		Cf obj;
-		obj.ShowDialog();
+		Cf^ obj = gcnew Cf();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cl Chlorine") {
-		Cl obj;
-		obj.ShowDialog();
+		Cl^ obj = gcnew Cl();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cm Curium") {
-		Cm obj;
-		obj.ShowDialog();
+		Cm^ obj = gcnew Cm();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cn Copernicium") {
-		Cn obj;
-		obj.ShowDialog();
+		Cn^ obj = gcnew Cn();
+		obj->Show();
 	}
 	if (listBox1->Text == "Co Cobalt") {
-		Co obj;
-		obj.ShowDialog();
+		Co^ obj = gcnew Co();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cr Chromium") {
-		Cr obj;
-		obj.ShowDialog();
+		Cr^ obj = gcnew Cr();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cs Cesium") {
-		CS obj;
-		obj.ShowDialog();
+		CS^ obj = gcnew CS();
+		obj->Show();
 	}
 	if (listBox1->Text == "Cu Copper") {
-		Cu obj;
-		obj.ShowDialog();
+		Cu^ obj = gcnew Cu();
+		obj->Show();
 	}
 	if (listBox1->Text == "Db Dubnium") {
-		Db obj;
-		obj.ShowDialog();
+		Db^ obj = gcnew Db();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ds Darmstadtium") {
-		Ds obj;
-		obj.ShowDialog();
+		Ds^ obj = gcnew Ds();
+		obj->Show();
 	}
 	if (listBox1->Text == "Dy Dysprosium") {
-		Dy obj;
-		obj.ShowDialog();
+		Dy^ obj = gcnew Dy();
+		obj->Show();
 	}
 	if (listBox1->Text == "Er Erbium") {
-		Er obj;
-		obj.ShowDialog();
+		Er^ obj = gcnew Er();
+		obj->Show();
 	}
 	if (listBox1->Text == "Es Einsteinium") {
-		Es obj;
-		obj.ShowDialog();
+		Es^ obj = gcnew Es();
+		obj->Show();
 	}
 	if (listBox1->Text == "Eu Europium") {
-		Eu obj;
-		obj.ShowDialog();
+		Eu^ obj = gcnew Eu();
+		obj->Show();
 	}
 	if (listBox1->Text == "F Fluorine") {
-		F obj;
-		obj.ShowDialog();
+		F^ obj = gcnew F();
+		obj->Show();
 	}
 	if (listBox1->Text == "Fe Iron") {
-		Fe obj;
-		obj.ShowDialog();
+		Fe^ obj = gcnew Fe();
+		obj->Show();
 	}
 	if (listBox1->Text == "Fl Flerovium") {
-		Fl obj;
-		obj.ShowDialog();
+		Fl^ obj = gcnew Fl();
+		obj->Show();
 	}
 	if (listBox1->Text == "Fm Fermium") {
-		Fm obj;
-		obj.ShowDialog();
+		Fm^ obj = gcnew Fm();
+		obj->Show();
 	}
 	if (listBox1->Text == "Fr Francium") {
-		Fr obj;
-		obj.ShowDialog();
+		Fr^ obj = gcnew Fr();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ga Gallium") {
-		Ga obj;
-		obj.ShowDialog();
+		Ga^ obj = gcnew Ga();
+		obj->Show();
 	}
 	if (listBox1->Text == "Gd Gadolinium") {
-		Gd obj;
-		obj.ShowDialog();
+		Gd^ obj = gcnew Gd();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ge Germanium") {
-		Ge obj;
-		obj.ShowDialog();
+		Ge^ obj = gcnew Ge();
+		obj->Show();
 	}
 	if (listBox1->Text == "H Hydrogen") {
-		H obj;
-		obj.ShowDialog();
+		H^ obj = gcnew H();
+		obj->Show();
 	}
 	if (listBox1->Text == "He Helium") {
-		He obj;
-		obj.ShowDialog();
+		He^ obj = gcnew He();
+		obj->Show();
 	}
 	if (listBox1->Text == "Hf Hafnium") {
-		Hf obj;
-		obj.ShowDialog();
+		Hf^ obj = gcnew Hf();
+		obj->Show();
 	}
 	if (listBox1->Text == "Hg Mercury") {
-		Hg obj;
-		obj.ShowDialog();
+		Hg^ obj = gcnew Hg();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ho Holmium") {
-		Ho obj;
-		obj.ShowDialog();
+		Ho^ obj = gcnew Ho();
+		obj->Show();
 	}
 	if (listBox1->Text == "Hs Hassium") {
-		Hs obj;
-		obj.ShowDialog();
+		Hs^ obj = gcnew Hs();
+		obj->Show();
 	}
 	if (listBox1->Text == "I Iodine") {
-		I obj;
-		obj.ShowDialog();
+		I^ obj = gcnew I();
+		obj->Show();
 	}
 	if (listBox1->Text == "In Indium") {
-		In obj;
-		obj.ShowDialog();
+		In^ obj = gcnew In();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ir Iridium") {
-		Ir obj;
-		obj.ShowDialog();
+		Ir^ obj = gcnew Ir();
+		obj->Show();
 	}
 	if (listBox1->Text == "K Potassium") {
-		Kali obj;
-		obj.ShowDialog();
+		Kali^ obj = gcnew Kali();
+		obj->Show();
 	}
 	if (listBox1->Text == "Kr Krypton") {
-		Kr obj;
-		obj.ShowDialog();
+		Kr^ obj = gcnew Kr();
+		obj->Show();
 	}
 	if (listBox1->Text == "La Lanthanum") {
-		La obj;
-		obj.ShowDialog();
+		La^ obj = gcnew La();
+		obj->Show();
 	}
 	if (listBox1->Text == "Li Lithium") {
-		Liti obj;
-		obj.ShowDialog();
+		Liti^ obj = gcnew Liti();
+		obj->Show();
 	}
 	if (listBox1->Text == "Lu Lutetium") {
-		Lu obj;
-		obj.ShowDialog();
+		Lu^ obj = gcnew Lu();
+		obj->Show();
 	}
 	if (listBox1->Text == "Lv Livermorium") {
-		Lv obj;
-		obj.ShowDialog();
+		Lv^ obj = gcnew Lv();
+		obj->Show();
 	}
 	if (listBox1->Text == "Lr Lawrencium") {
-		Lr obj;
-		obj.ShowDialog();
+		Lr^ obj = gcnew Lr();
+		obj->Show();
 	}
 	if (listBox1->Text == "Mc Moscovium") {
-		Mc obj;
-		obj.ShowDialog();
+		Mc^ obj = gcnew Mc();
+		obj->Show();
 	}
 	if (listBox1->Text == "Md Mendelevium") {
-		Md obj;
-		obj.ShowDialog();
+		Md^ obj = gcnew Md();
+		obj->Show();
 	}
 	if (listBox1->Text == "Mg Magnesium") {
-		Mg obj;
-		obj.ShowDialog();
+		Mg^ obj = gcnew Mg();
+		obj->Show();
 	}
 	if (listBox1->Text == "Mn Manganese") {
-		Mn obj;
-		obj.ShowDialog();
+		Mn^ obj = gcnew Mn();
+		obj->Show();
 	}
 	if (listBox1->Text == "Mo Molybdenum") {
-		Mo obj;
-		obj.ShowDialog();
+		Mo^ obj = gcnew Mo();
+		obj->Show();
 	}
 	if (listBox1->Text == "Mt Meitneriumm") {
-		Mt obj;
-		obj.ShowDialog();
+		Mt^ obj = gcnew Mt();
+		obj->Show();
 	}
 	if (listBox1->Text == "N Nitrogen") {
-		N obj;
-		obj.ShowDialog();
+		N^ obj = gcnew N();
+		obj->Show();
 	}
 	if (listBox1->Text == "Na Sodium") {
-		Natri obj;
-		obj.ShowDialog();
+		Natri^ obj = gcnew Natri();
+		obj->Show();
 	}
 	if (listBox1->Text == "Nb Niobium") {
-		Nb obj;
-		obj.ShowDialog();
+		Nb^ obj = gcnew Nb();
+		obj->Show();
 	}
 	if (listBox1->Text == "Nd Neodymium") {
-		Nd obj;
-		obj.ShowDialog();
+		Nd^ obj = gcnew Nd();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ne Neon") {
-		Ne obj;
-		obj.ShowDialog();
+		Ne^ obj = gcnew Ne();
+		obj->Show();
 	}
 	if (listBox1->Text == "Nh Nihonium") {
-		Nh obj;
-		obj.ShowDialog();
+		Nh^ obj = gcnew Nh();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ni Nickel") {
-		Ni obj;
-		obj.ShowDialog();
+		Ni^ obj = gcnew Ni();
+		obj->Show();
 	}
 	if (listBox1->Text == "No Nobelium") {
-		No obj;
-		obj.ShowDialog();
+		No^ obj = gcnew No();
+		obj->Show();
 	}
 	if (listBox1->Text == "Np Neptunium") {
-		Np obj;
-		obj.ShowDialog();
+		Np^ obj = gcnew Np();
+		obj->Show();
 	}
 	if (listBox1->Text == "O Oxygen") {
-		O obj;
-		obj.ShowDialog();
+		O^ obj = gcnew O();
+		obj->Show();
 	}
 	if (listBox1->Text == "Og Oganesson") {
-		Og obj;
-		obj.ShowDialog();
+		Og^ obj = gcnew Og();
+		obj->Show();
 	}
 	if (listBox1->Text == "Os Osmium") {
-		Os obj;
-		obj.ShowDialog();
+		Os^ obj = gcnew Os();
+		obj->Show();
 	}
 	if (listBox1->Text == "P Phosphorus") {
-		P obj;
-		obj.ShowDialog();
+		P^ obj = gcnew P();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pa Protactinium") {
-		Pa obj;
-		obj.ShowDialog();
+		Pa^ obj = gcnew Pa();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pb Lead") {
-		Pb obj;
-		obj.ShowDialog();
+		Pb^ obj = gcnew Pb();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pd Palladium") {
-		Pd obj;
-		obj.ShowDialog();
+		Pd^ obj = gcnew Pd();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pm Promethium") {
-		Pm obj;
-		obj.ShowDialog();
+		Pm^ obj = gcnew Pm();
+		obj->Show();
 	}
 	if (listBox1->Text == "Po Polonium") {
-		Po obj;
-		obj.ShowDialog();
+		Po^ obj = gcnew Po();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pr Praseodymium") {
-		Pr obj;
-		obj.ShowDialog();
+		Pr^ obj = gcnew Pr();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pt Platinum") {
-		Pt obj;
-		obj.ShowDialog();
+		Pt^ obj = gcnew Pt();
+		obj->Show();
 	}
 	if (listBox1->Text == "Pu Plutonium") {
-		Pu obj;
-		obj.ShowDialog();
+		Pu^ obj = gcnew Pu();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ra Radium") {
-		Ra obj;
-		obj.ShowDialog();
+		Ra^ obj = gcnew Ra();
+		obj->Show();
 	}
 	if (listBox1->Text == "Rb Rubidium") {
-		Rb obj;
-		obj.ShowDialog();
+		Rb^ obj = gcnew Rb();
+		obj->Show();
 	}
 	if (listBox1->Text == "Re Rhenium") {
-		Re obj;
-		obj.ShowDialog();
+		Re^ obj = gcnew Re();
+		obj->Show();
 	}
 	if (listBox1->Text == "Rf Rutherfordium") {
-		Rf obj;
-		obj.ShowDialog();
+		Rf^ obj = gcnew Rf();
+		obj->Show();
 	}
 	if (listBox1->Text == "Rg Roentgenium") {
-		Rg obj;
-		obj.ShowDialog();
+		Rg^ obj = gcnew Rg();
+		obj->Show();
 	}
 	if (listBox1->Text == "Rh Rhodium") {
-		Rh obj;
-		obj.ShowDialog();
+		Rh^ obj = gcnew Rh();
+		obj->Show();
 	}
 	if (listBox1->Text == "Rn Radon") {
-		Rn obj;
-		obj.ShowDialog();
+		Rn^ obj = gcnew Rn();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ru Ruthenium") {
-		Ru obj;
-		obj.ShowDialog();
+		Ru^ obj = gcnew Ru();
+		obj->Show();
 	}
 	if (listBox1->Text == "S Sulfur") {
-		S obj;
-		obj.ShowDialog();
+		S^ obj = gcnew S();
+		obj->Show();
 	}
 	if (listBox1->Text == "Sb Antimony") {
-		Sb obj;
-		obj.ShowDialog();
+		Sb^ obj = gcnew Sb();
+		obj->Show();
 	}
 	if (listBox1->Text == "Sc Scandium") {
-		Sc obj;
-		obj.ShowDialog();
+		Sc^ obj = gcnew Sc();
+		obj->Show();
 	}
 	if (listBox1->Text == "Se Selenium") {
-		Se obj;
-		obj.ShowDialog();
+		Se^ obj = gcnew Se();
+		obj->Show();
 	}
 	if (listBox1->Text == "Sg Seaborgium") {
-		Sg obj;
-		obj.ShowDialog();
+		Sg^ obj = gcnew Sg();
+		obj->Show();
 	}
 	if (listBox1->Text == "Si Silicon") {
-		Si obj;
-		obj.ShowDialog();
+		Si^ obj = gcnew Si();
+		obj->Show();
 	}
 	if (listBox1->Text == "Sm Samarium") {
-		Sm obj;
-		obj.ShowDialog();
+		Sm^ obj = gcnew Sm();
+		obj->Show();
 	}
 	if (listBox1->Text == "Sn Tin") {
-		Sn obj;
-		obj.ShowDialog();
+		Sn^ obj = gcnew Sn();
+		obj->Show();
 	}
 	if (listBox1->Text == "Sr Strontium") {
-		Sr obj;
-		obj.ShowDialog();
+		Sr^ obj = gcnew Sr();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ta Tantalum") {
-		Ta obj;
-		obj.ShowDialog();
+		Ta^ obj = gcnew Ta();
+		obj->Show();
 	}
 	if (listBox1->Text == "Tb Terbium") {
-		Tb obj;
-		obj.ShowDialog();
+		Tb^ obj = gcnew Tb();
+		obj->Show();
 	}
 	if (listBox1->Text == "Tc Technetium") {
-		Tc obj;
-		obj.ShowDialog();
+		Tc^ obj = gcnew Tc();
+		obj->Show();
 	}
 	if (listBox1->Text == "Te Tellurium") {
-		Te obj;
-		obj.ShowDialog();
+		Te^ obj = gcnew Te();
+		obj->Show();
 	}
 	if (listBox1->Text == "Th Thorium") {
-		Th obj;
-		obj.ShowDialog();
+		Th^ obj = gcnew Th();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ti Titanium") {
-		Ti obj;
-		obj.ShowDialog();
+		Ti^ obj = gcnew Ti();
+		obj->Show();
 	}
 	if (listBox1->Text == "Tl Thallium") {
-		Tl obj;
-		obj.ShowDialog();
+		Tl^ obj = gcnew Tl();
+		obj->Show();
 	}
 	if (listBox1->Text == "Tm Thulium") {
-		Tm obj;
-		obj.ShowDialog();
+		Tm^ obj = gcnew Tm();
+		obj->Show();
 	}
 	if (listBox1->Text == "Ts Tennessine") {
-		Ts obj;
-		obj.ShowDialog();
+		Ts^ obj = gcnew Ts();
+		obj->Show();
 	}
 	if (listBox1->Text == "U Uranium") {
-		U obj;
-		obj.ShowDialog();
+		U^ obj = gcnew U();
+		obj->Show();
 	}
 	if (listBox1->Text == "V Vanadium") {
-		V obj;
-		obj.ShowDialog();
+		V^ obj = gcnew V();
+		obj->Show();
 	}
 	if (listBox1->Text == "W Tungsten") {
-		W obj;
-		obj.ShowDialog();
-	}
-	if (listBox1->Text == "W Tungsten") {
-		W obj;
-		obj.ShowDialog();
+		W^ obj = gcnew W();
+		obj->Show();
 	}
 	if (listBox1->Text == "Xe Xenon") {
-		Xe obj;
-		obj.ShowDialog();
+		Xe^ obj = gcnew Xe();
+		obj->Show();
 	}
 	if (listBox1->Text == "Y Yttrium") {
-		Y obj;
-		obj.ShowDialog();
+		Y^ obj = gcnew Y();
+		obj->Show();
 	}
 	if (listBox1->Text == "Yb Ytterbium") {
-		Yb obj;
-		obj.ShowDialog();
+		Yb^ obj = gcnew Yb();
+		obj->Show();
 	}
 	if (listBox1->Text == "Zn Zinc") {
-		Zn obj;
-		obj.ShowDialog();
+		Zn^ obj = gcnew Zn();
+		obj->Show();
 	}
 	if (listBox1->Text == "Zr Zirconium") {
-		Zr obj;
-		obj.ShowDialog();
+		Zr^ obj = gcnew Zr();
+		obj->Show();
 	}
 }
 private: System::Void comboBox1_SelectedIndexChanged(System::Object^ sender, System::EventArgs^ e) {
@@ -2914,480 +2910,476 @@ private: System::Void menuStrip1_ItemClicked(System::Object^ sender, System::Win
 }
 private: System::Void button119_Click(System::Object^ sender, System::EventArgs^ e) {
 	if (comboBox1->Text == "Ac Actinium") {
-		Ac obj;
-		obj.ShowDialog();
+		Ac^ obj = gcnew Ac();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ag Silver") {
-		Ag obj;
-		obj.ShowDialog();
+		Ag^ obj = gcnew Ag();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Al Aluminum") {
-		Al obj;
-		obj.ShowDialog();
+		Al^ obj = gcnew Al();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Am Americium") {
-		Am obj;
-		obj.ShowDialog();
+		Am^ obj = gcnew Am();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ar Argon") {
-		Ar obj;
-		obj.ShowDialog();
+		Ar^ obj = gcnew Ar();
+		obj->Show();
 	}
 	if (comboBox1->Text == "As Arsenic") {
-		As obj;
-		obj.ShowDialog();
+		As^ obj = gcnew As();
+		obj->Show();
 	}
 	if (comboBox1->Text == "At Astatine") {
-		At obj;
-		obj.ShowDialog();
+		At^ obj = gcnew At();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Au Gold") {
-		Au obj;
-		obj.ShowDialog();
+		Au^ obj = gcnew Au();
+		obj->Show();
 	}
 	if (comboBox1->Text == "B Boron") {
-		B obj;
-		obj.ShowDialog();
-	}	
+		B^ obj = gcnew B();
+		obj->Show();
+	}
 	if (comboBox1->Text == "Ba Barium") {
-		Ba obj;
-		obj.ShowDialog();
+		Ba^ obj = gcnew Ba();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Be Beryllium") {
-		Be obj;
-		obj.ShowDialog();
+		Ba^ obj = gcnew Ba();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Bh Bohrium") {
-		Bh obj;
-		obj.ShowDialog();
+		Bh^ obj = gcnew Bh();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Bi Bismuth") {
-		Bi obj;
-		obj.ShowDialog();
+		Bi^ obj = gcnew Bi();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Bk Berkelium") {
-		Bk obj;
-		obj.ShowDialog();
+		Bk^ obj = gcnew Bk();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Br Bromine") {
-		Br obj;
-		obj.ShowDialog();
+		Br^ obj = gcnew Br();
+		obj->Show();
 	}
 	if (comboBox1->Text == "C Carbon") {
-		C obj;
-		obj.ShowDialog();
+		C^ obj = gcnew C();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ca Calcium") {
-		Ca obj;
-		obj.ShowDialog();
+		Ca^ obj = gcnew Ca();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cd Cadmium") {
-		Cd obj;
-		obj.ShowDialog();
+		Cd^ obj = gcnew Cd();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ce Cerium") {
-		Ce obj;
-		obj.ShowDialog();
+		Ce^ obj = gcnew Ce();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cf Californium") {
-		Cf obj;
-		obj.ShowDialog();
+		Cf^ obj = gcnew Cf();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cl Chlorine") {
-		Cl obj;
-		obj.ShowDialog();
+		Cl^ obj = gcnew Cl();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cm Curium") {
-		Cm obj;
-		obj.ShowDialog();
+		Cm^ obj = gcnew Cm();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cn Copernicium") {
-		Cn obj;
-		obj.ShowDialog();
+		Cn^ obj = gcnew Cn();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Co Cobalt") {
-		Co obj;
-		obj.ShowDialog();
+		Co^ obj = gcnew Co();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cr Chromium") {
-		Cr obj;
-		obj.ShowDialog();
+		Cr^ obj = gcnew Cr();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cs Cesium") {
-		CS obj;
-		obj.ShowDialog();
+		CS^ obj = gcnew CS();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Cu Copper") {
-		Cu obj;
-		obj.ShowDialog();
+		Cu^ obj = gcnew Cu();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Db Dubnium") {
-		Db obj;
-		obj.ShowDialog();
+		Db^ obj = gcnew Db();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ds Darmstadtium") {
-		Ds obj;
-		obj.ShowDialog();
+		Ds^ obj = gcnew Ds();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Dy Dysprosium") {
-		Dy obj;
-		obj.ShowDialog();
+		Dy^ obj = gcnew Dy();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Er Erbium") {
-		Er obj;
-		obj.ShowDialog();
+		Er^ obj = gcnew Er();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Es Einsteinium") {
-		Es obj;
-		obj.ShowDialog();
+		Es^ obj = gcnew Es();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Eu Europium") {
-		Eu obj;
-		obj.ShowDialog();
+		Eu^ obj = gcnew Eu();
+		obj->Show();
 	}
 	if (comboBox1->Text == "F Fluorine") {
-		F obj;
-		obj.ShowDialog();
+		F^ obj = gcnew F();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Fe Iron") {
-		Fe obj;
-		obj.ShowDialog();
+		Fe^ obj = gcnew Fe();
+		obj->Show();
 	}
-	if(comboBox1->Text == "Fl Flerovium") {
-		Fl obj;
-		obj.ShowDialog();
+	if (comboBox1->Text == "Fl Flerovium") {
+		Fl^ obj = gcnew Fl();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Fm Fermium") {
-		Fm obj;
-		obj.ShowDialog();
+		Fm^ obj = gcnew Fm();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Fr Francium") {
-		Fr obj;
-		obj.ShowDialog();
+		Fr^ obj = gcnew Fr();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ga Gallium") {
-		Ga obj;
-		obj.ShowDialog();
+		Ga^ obj = gcnew Ga();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Gd Gadolinium") {
-		Gd obj;
-		obj.ShowDialog();
+		Gd^ obj = gcnew Gd();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ge Germanium") {
-		Ge obj;
-		obj.ShowDialog();
+		Ge^ obj = gcnew Ge();
+		obj->Show();
 	}
 	if (comboBox1->Text == "H Hydrogen") {
-		H obj;
-		obj.ShowDialog();
+		H^ obj = gcnew H();
+		obj->Show();
 	}
 	if (comboBox1->Text == "He Helium") {
-		He obj;
-		obj.ShowDialog();
+		He^ obj = gcnew He();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Hf Hafnium") {
-		Hf obj;
-		obj.ShowDialog();
+		Hf^ obj = gcnew Hf();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Hg Mercury") {
-		Hg obj;
-		obj.ShowDialog();
+		Hg^ obj = gcnew Hg();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ho Holmium") {
-		Ho obj;
-		obj.ShowDialog();
+		Ho^ obj = gcnew Ho();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Hs Hassium") {
-		Hs obj;
-		obj.ShowDialog();
+		Hs^ obj = gcnew Hs();
+		obj->Show();
 	}
 	if (comboBox1->Text == "I Iodine") {
-		I obj;
-		obj.ShowDialog();
+		I^ obj = gcnew I();
+		obj->Show();
 	}
 	if (comboBox1->Text == "In Indium") {
-		In obj;
-		obj.ShowDialog();
+		In^ obj = gcnew In();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ir Iridium") {
-		Ir obj;
-		obj.ShowDialog();
+		Ir^ obj = gcnew Ir();
+		obj->Show();
 	}
 	if (comboBox1->Text == "K Potassium") {
-		Kali obj;
-		obj.ShowDialog();
+		Kali^ obj = gcnew Kali();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Kr Krypton") {
-		Kr obj;
-		obj.ShowDialog();
+		Kr^ obj = gcnew Kr();
+		obj->Show();
 	}
 	if (comboBox1->Text == "La Lanthanum") {
-		La obj;
-		obj.ShowDialog();
+		La^ obj = gcnew La();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Li Lithium") {
-		Liti obj;
-		obj.ShowDialog();
+		Liti^ obj = gcnew Liti();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Lu Lutetium") {
-		Lu obj;
-		obj.ShowDialog();
+		Lu^ obj = gcnew Lu();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Lv Livermorium") {
-		Lv obj;
-		obj.ShowDialog();
+		Lv^ obj = gcnew Lv();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Lr Lawrencium") {
-		Lr obj;
-		obj.ShowDialog();
+		Lr^ obj = gcnew Lr();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Mc Moscovium") {
-		Mc obj;
-		obj.ShowDialog();
+		Mc^ obj = gcnew Mc();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Md Mendelevium") {
-		Md obj;
-		obj.ShowDialog();
+		Md^ obj = gcnew Md();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Mg Magnesium") {
-		Mg obj;
-		obj.ShowDialog();
+		Mg^ obj = gcnew Mg();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Mn Manganese") {
-		Mn obj;
-		obj.ShowDialog();
+		Mn^ obj = gcnew Mn();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Mo Molybdenum") {
-		Mo obj;
-		obj.ShowDialog();
+		Mo^ obj = gcnew Mo();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Mt Meitneriumm") {
-		Mt obj;
-		obj.ShowDialog();
+		Mt^ obj = gcnew Mt();
+		obj->Show();
 	}
 	if (comboBox1->Text == "N Nitrogen") {
-		N obj;
-		obj.ShowDialog();
+		N^ obj = gcnew N();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Na Sodium") {
-		Natri obj;
-		obj.ShowDialog();
+		Natri^ obj = gcnew Natri();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Nb Niobium") {
-		Nb obj;
-		obj.ShowDialog();
+		Nb^ obj = gcnew Nb();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Nd Neodymium") {
-		Nd obj;
-		obj.ShowDialog();
+		Nd^ obj = gcnew Nd();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ne Neon") {
-		Ne obj;
-		obj.ShowDialog();
+		Ne^ obj = gcnew Ne();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Nh Nihonium") {
-		Nh obj;
-		obj.ShowDialog();
+		Nh^ obj = gcnew Nh();
+		obj->Show();
 	}
-	if(comboBox1->Text == "Ni Nickel") {
-		Ni obj;
-		obj.ShowDialog();
+	if (comboBox1->Text == "Ni Nickel") {
+		Ni^ obj = gcnew Ni();
+		obj->Show();
 	}
 	if (comboBox1->Text == "No Nobelium") {
-		No obj;
-		obj.ShowDialog();
+		No^ obj = gcnew No();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Np Neptunium") {
-		Np obj;
-		obj.ShowDialog();
+		Np^ obj = gcnew Np();
+		obj->Show();
 	}
 	if (comboBox1->Text == "O Oxygen") {
-		O obj;
-		obj.ShowDialog();
+		O^ obj = gcnew O();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Og Oganesson") {
-		Og obj;
-		obj.ShowDialog();
+		Og^ obj = gcnew Og();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Os Osmium") {
-		Os obj;
-		obj.ShowDialog();
+		Os^ obj = gcnew Os();
+		obj->Show();
 	}
 	if (comboBox1->Text == "P Phosphorus") {
-		P obj;
-		obj.ShowDialog();
+		P^ obj = gcnew P();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pa Protactinium") {
-		Pa obj;
-		obj.ShowDialog();
+		Pa^ obj = gcnew Pa();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pb Lead") {
-		Pb obj;
-		obj.ShowDialog();
+		Pb^ obj = gcnew Pb();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pd Palladium") {
-		Pd obj;
-		obj.ShowDialog();
+		Pd^ obj = gcnew Pd();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pm Promethium") {
-		Pm obj;
-		obj.ShowDialog();
+		Pm^ obj = gcnew Pm();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Po Polonium") {
-		Po obj;
-		obj.ShowDialog();
+		Po^ obj = gcnew Po();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pr Praseodymium") {
-		Pr obj;
-		obj.ShowDialog();
+		Pr^ obj = gcnew Pr();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pt Platinum") {
-		Pt obj;
-		obj.ShowDialog();
+		Pt^ obj = gcnew Pt();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Pu Plutonium") {
-		Pu obj;
-		obj.ShowDialog();
+		Pu^ obj = gcnew Pu();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ra Radium") {
-		Ra obj;
-		obj.ShowDialog();
+		Ra^ obj = gcnew Ra();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Rb Rubidium") {
-		Rb obj;
-		obj.ShowDialog();
+		Rb^ obj = gcnew Rb();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Re Rhenium") {
-		Re obj;
-		obj.ShowDialog();
+		Re^ obj = gcnew Re();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Rf Rutherfordium") {
-		Rf obj;
-		obj.ShowDialog();
+		Rf^ obj = gcnew Rf();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Rg Roentgenium") {
-		Rg obj;
-		obj.ShowDialog();
+		Rg^ obj = gcnew Rg();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Rh Rhodium") {
-		Rh obj;
-		obj.ShowDialog();
+		Rh^ obj = gcnew Rh();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Rn Radon") {
-		Rn obj;
-		obj.ShowDialog();
+		Rn^ obj = gcnew Rn();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ru Ruthenium") {
-		Ru obj;
-		obj.ShowDialog();
+		Ru^ obj = gcnew Ru();
+		obj->Show();
 	}
 	if (comboBox1->Text == "S Sulfur") {
-		S obj;
-		obj.ShowDialog();
+		S^ obj = gcnew S();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Sb Antimony") {
-		Sb obj;
-		obj.ShowDialog();
+		Sb^ obj = gcnew Sb();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Sc Scandium") {
-		Sc obj;
-		obj.ShowDialog();
+		Sc^ obj = gcnew Sc();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Se Selenium") {
-		Se obj;
-		obj.ShowDialog();
+		Se^ obj = gcnew Se();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Sg Seaborgium") {
-		Sg obj;
-		obj.ShowDialog();
+		Sg^ obj = gcnew Sg();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Si Silicon") {
-		Si obj;
-		obj.ShowDialog();
+		Si^ obj = gcnew Si();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Sm Samarium") {
-		Sm obj;
-		obj.ShowDialog();
+		Sm^ obj = gcnew Sm();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Sn Tin") {
-		Sn obj;
-		obj.ShowDialog();
+		Sn^ obj = gcnew Sn();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Sr Strontium") {
-		Sr obj;
-		obj.ShowDialog();
+		Sr^ obj = gcnew Sr();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ta Tantalum") {
-		Ta obj;
-		obj.ShowDialog();
+		Ta^ obj = gcnew Ta();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Tb Terbium") {
-		Tb obj;
-		obj.ShowDialog();
+		Tb^ obj = gcnew Tb();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Tc Technetium") {
-		Tc obj;
-		obj.ShowDialog();
+		Tc^ obj = gcnew Tc();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Te Tellurium") {
-		Te obj;
-		obj.ShowDialog();
+		Te^ obj = gcnew Te();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Th Thorium") {
-		Th obj;
-		obj.ShowDialog();
+		Th^ obj = gcnew Th();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ti Titanium") {
-		Ti obj;
-		obj.ShowDialog();
+		Ti^ obj = gcnew Ti();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Tl Thallium") {
-		Tl obj;
-		obj.ShowDialog();
+		Tl^ obj = gcnew Tl();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Tm Thulium") {
-		Tm obj;
-		obj.ShowDialog();
+		Tm^ obj = gcnew Tm();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Ts Tennessine") {
-		Ts obj;
-		obj.ShowDialog();
+		Ts^ obj = gcnew Ts();
+		obj->Show();
 	}
 	if (comboBox1->Text == "U Uranium") {
-		U obj;
-		obj.ShowDialog();
+		U^ obj = gcnew U();
+		obj->Show();
 	}
 	if (comboBox1->Text == "V Vanadium") {
-		V obj;
-		obj.ShowDialog();
+		V^ obj = gcnew V();
+		obj->Show();
 	}
 	if (comboBox1->Text == "W Tungsten") {
-		W obj;
-		obj.ShowDialog();
-	}
-	if (comboBox1->Text == "W Tungsten") {
-		W obj;
-		obj.ShowDialog();
+		W^ obj = gcnew W();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Xe Xenon") {
-		Xe obj;
-		obj.ShowDialog();
+		Xe^ obj = gcnew Xe();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Y Yttrium") {
-		Y obj;
-		obj.ShowDialog();
+		Y^ obj = gcnew Y();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Yb Ytterbium") {
-		Yb obj;
-		obj.ShowDialog();
+		Yb^ obj = gcnew Yb();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Zn Zinc") {
-		Zn obj;
-		obj.ShowDialog();
+		Zn^ obj = gcnew Zn();
+		obj->Show();
 	}
 	if (comboBox1->Text == "Zr Zirconium") {
-		Zr obj;
-		obj.ShowDialog();
+		Zr^ obj = gcnew Zr();
+		obj->Show();
 	}
 	
 }
@@ -3691,476 +3683,476 @@ private: System::Void checkBox10_CheckedChanged(System::Object^ sender, System::
 }
 
 private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
-	H obj;
-	obj.ShowDialog();
+	H^ obj = gcnew H();
+	obj->Show();
 }
 private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
-	Liti obj;
-	obj.ShowDialog();
+	Liti^ obj = gcnew Liti();
+	obj->Show();
 }
 private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
-	Natri obj;
-	obj.ShowDialog();
+	Natri^ obj = gcnew Natri();
+	obj->Show();
 }
 private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
-	Kali obj;
-	obj.ShowDialog();
+	Kali^ obj = gcnew Kali();
+	obj->Show();
 }
 private: System::Void button5_Click(System::Object^ sender, System::EventArgs^ e) {
-	Rb obj;
-	obj.ShowDialog();
+	Rb^ obj = gcnew Rb();
+	obj->Show();
 }
 private: System::Void button6_Click(System::Object^ sender, System::EventArgs^ e) {
-	CS obj;
-	obj.ShowDialog();
+	CS^ obj = gcnew CS();
+	obj->Show();
 }
 private: System::Void button7_Click(System::Object^ sender, System::EventArgs^ e) {
-	Fr obj;
-	obj.ShowDialog();
+	Fr^ obj = gcnew Fr();
+	obj->Show();
 }
 private: System::Void button8_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ra obj;
-	obj.ShowDialog();
+	Ra^ obj = gcnew Ra();
+	obj->Show();
 }
 private: System::Void button9_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ba obj;
-	obj.ShowDialog();
+	Ba^ obj = gcnew Ba();
+	obj->Show();
 }
 private: System::Void button10_Click(System::Object^ sender, System::EventArgs^ e) {
-	Sr obj;
-	obj.ShowDialog();
+	Sr^ obj = gcnew Sr();
+	obj->Show();
 }
 private: System::Void button11_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ca obj;
-	obj.ShowDialog();
+	Ca^ obj = gcnew Ca();
+	obj->Show();
 }
 private: System::Void button12_Click(System::Object^ sender, System::EventArgs^ e) {
-	Mg obj;
-	obj.ShowDialog();
+	Mg^ obj = gcnew Mg();
+	obj->Show();
 }
 private: System::Void button13_Click(System::Object^ sender, System::EventArgs^ e) {
-	Be obj;
-	obj.ShowDialog();
+	Be^ obj = gcnew Be();
+	obj->Show();
 }
 private: System::Void button14_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ac obj;
-	obj.ShowDialog();
+	Ac^ obj = gcnew Ac();
+	obj->Show();
 }
 private: System::Void button15_Click(System::Object^ sender, System::EventArgs^ e) {
-	La obj;
-	obj.ShowDialog();
+	La^ obj = gcnew La();
+	obj->Show();
 }
 private: System::Void button16_Click(System::Object^ sender, System::EventArgs^ e) {
-	Y obj;
-	obj.ShowDialog();
+	Y^ obj = gcnew Y();
+	obj->Show();
 }
 private: System::Void button17_Click(System::Object^ sender, System::EventArgs^ e) {
-	Sc obj;
-	obj.ShowDialog();
+	Sc^ obj = gcnew Sc();
+	obj->Show();
 }
 private: System::Void button18_Click(System::Object^ sender, System::EventArgs^ e) {
-	Rf obj;
-	obj.ShowDialog();
+	Rf^ obj = gcnew Rf();
+	obj->Show();
 }
 private: System::Void button19_Click(System::Object^ sender, System::EventArgs^ e) {
-	Hf obj;
-	obj.ShowDialog();
+	Hf^ obj = gcnew Hf();
+	obj->Show();
 }
 private: System::Void button20_Click(System::Object^ sender, System::EventArgs^ e) {
-	Zr obj;
-	obj.ShowDialog();
+	Zr^ obj = gcnew Zr();
+	obj->Show();
 }
 private: System::Void button21_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ti obj;
-	obj.ShowDialog();
+	Ti^ obj = gcnew Ti();
+	obj->Show();
 }
 private: System::Void button22_Click(System::Object^ sender, System::EventArgs^ e) {
-	Db obj;
-	obj.ShowDialog();
+	Db^ obj = gcnew Db();
+	obj->Show();
 }
 private: System::Void button23_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ta obj;
-	obj.ShowDialog();
+	Ta^ obj = gcnew Ta();
+	obj->Show();
 }
 private: System::Void button24_Click(System::Object^ sender, System::EventArgs^ e) {
-	Nb obj;
-	obj.ShowDialog();
+	Nb^ obj = gcnew Nb();
+	obj->Show();
 }
 private: System::Void button25_Click(System::Object^ sender, System::EventArgs^ e) {
-	V obj;
-	obj.ShowDialog();
+	V^ obj = gcnew V();
+	obj->Show();
 }
 private: System::Void button26_Click(System::Object^ sender, System::EventArgs^ e) {
-	Sg obj;
-	obj.ShowDialog();
+	Sg^ obj = gcnew Sg();
+	obj->Show();
 }
 private: System::Void button27_Click(System::Object^ sender, System::EventArgs^ e) {
-	W obj;
-	obj.ShowDialog();
+	W^ obj = gcnew W();
+	obj->Show();
 }
 private: System::Void button28_Click(System::Object^ sender, System::EventArgs^ e) {
-	Mo obj;
-	obj.ShowDialog();
+	Mo^ obj = gcnew Mo();
+	obj->Show();
 }
 private: System::Void button29_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cr obj;
-	obj.ShowDialog();
+	Cr^ obj = gcnew Cr();
+	obj->Show();
 }
 private: System::Void button30_Click(System::Object^ sender, System::EventArgs^ e) {
-	Bh obj;
-	obj.ShowDialog();
+	Bh^ obj = gcnew Bh();
+	obj->Show();
 }
 private: System::Void button31_Click(System::Object^ sender, System::EventArgs^ e) {
-	Re obj;
-	obj.ShowDialog();
+	Re^ obj = gcnew Re();
+	obj->Show();
 }
 private: System::Void button32_Click(System::Object^ sender, System::EventArgs^ e) {
-	Tc obj;
-	obj.ShowDialog();
+	Tc^ obj = gcnew Tc();
+	obj->Show();
 }
 private: System::Void button33_Click(System::Object^ sender, System::EventArgs^ e) {
-	Mn obj;
-	obj.ShowDialog();
+	Mn^ obj = gcnew Mn();
+	obj->Show();
 }
 private: System::Void button34_Click(System::Object^ sender, System::EventArgs^ e) {
-	Hs obj;
-	obj.ShowDialog();
+	Hs^ obj = gcnew Hs();
+	obj->Show();
 }
 private: System::Void button35_Click(System::Object^ sender, System::EventArgs^ e) {
-	Os obj;
-	obj.ShowDialog();
+	Os^ obj = gcnew Os();
+	obj->Show();
 }
 private: System::Void button36_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ru obj;
-	obj.ShowDialog();
+	Ru^ obj = gcnew Ru();
+	obj->Show();
 }
 private: System::Void button37_Click(System::Object^ sender, System::EventArgs^ e) {
-	Fe obj;
-	obj.ShowDialog();
+	Fe^ obj = gcnew Fe();
+	obj->Show();
 }
 private: System::Void button38_Click(System::Object^ sender, System::EventArgs^ e) {
-	Mt obj;
-	obj.ShowDialog();
+	Mt^ obj = gcnew Mt();
+	obj->Show();
 }
 private: System::Void button39_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ir obj;
-	obj.ShowDialog();
+	Ir^ obj = gcnew Ir();
+	obj->Show();
 }
 private: System::Void button40_Click(System::Object^ sender, System::EventArgs^ e) {
-	Rh obj;
-	obj.ShowDialog();
+	Rh^ obj = gcnew Rh();
+	obj->Show();
 }
 private: System::Void button41_Click(System::Object^ sender, System::EventArgs^ e) {
-	Co obj;
-	obj.ShowDialog();
+	Co^ obj = gcnew Co();
+	obj->Show();
 }
 private: System::Void button42_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ds obj;
-	obj.ShowDialog();
+	Ds^ obj = gcnew Ds();
+	obj->Show();
 }
 private: System::Void button43_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pt obj;
-	obj.ShowDialog();
+	Pt^ obj = gcnew Pt();
+	obj->Show();
 }
 private: System::Void button44_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pd obj;
-	obj.ShowDialog();
+	Pd^ obj = gcnew Pd();
+	obj->Show();
 }
 private: System::Void button45_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ni obj;
-	obj.ShowDialog();
+	Ni^ obj = gcnew Ni();
+	obj->Show();
 }
 private: System::Void button46_Click(System::Object^ sender, System::EventArgs^ e) {
-	Rg obj;
-	obj.ShowDialog();
+	Rg^ obj = gcnew Rg();
+	obj->Show();
 }
 private: System::Void button47_Click(System::Object^ sender, System::EventArgs^ e) {
-	Au obj;
-	obj.ShowDialog();
+	Au^ obj = gcnew Au();
+	obj->Show();
 }
 private: System::Void button48_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ag obj;
-	obj.ShowDialog();
+	Ag^ obj = gcnew Ag();
+	obj->Show();
 }
 private: System::Void button49_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cu obj;
-	obj.ShowDialog();
+	Cu^ obj = gcnew Cu();
+	obj->Show();
 }
 private: System::Void button50_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cn obj;
-	obj.ShowDialog();
+	Cn^ obj = gcnew Cn();
+	obj->Show();
 }
 private: System::Void button51_Click(System::Object^ sender, System::EventArgs^ e) {
-	Hg obj;
-	obj.ShowDialog();
+	Hg^ obj = gcnew Hg();
+	obj->Show();
 }
 private: System::Void button52_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cd obj;
-	obj.ShowDialog();
+	Cd^ obj = gcnew Cd();
+	obj->Show();
 }
 private: System::Void button53_Click(System::Object^ sender, System::EventArgs^ e) {
-	Zn obj;
-	obj.ShowDialog();
+	Zn^ obj = gcnew Zn();
+	obj->Show();
 }
 private: System::Void button54_Click(System::Object^ sender, System::EventArgs^ e) {
-	Nh obj;
-	obj.ShowDialog();
+	Nh^ obj = gcnew Nh();
+	obj->Show();
 }
 private: System::Void button55_Click(System::Object^ sender, System::EventArgs^ e) {
-	Tl obj;
-	obj.ShowDialog();
+	Tl^ obj = gcnew Tl();
+	obj->Show();
 }
 private: System::Void button56_Click(System::Object^ sender, System::EventArgs^ e) {
-	In obj;
-	obj.ShowDialog();
+	In^ obj = gcnew In();
+	obj->Show();
 }
 private: System::Void button57_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ga obj;
-	obj.ShowDialog();
+	Ga^ obj = gcnew Ga();
+	obj->Show();
 }
 private: System::Void button58_Click(System::Object^ sender, System::EventArgs^ e) {
-	Al obj;
-	obj.ShowDialog();
+	Al^ obj = gcnew Al();
+	obj->Show();
 }
 private: System::Void button59_Click(System::Object^ sender, System::EventArgs^ e) {
-	B obj;
-	obj.ShowDialog();
+	B^ obj = gcnew B();
+	obj->Show();
 }
 private: System::Void button60_Click(System::Object^ sender, System::EventArgs^ e) {
-	Fl obj;
-	obj.ShowDialog();
+	Fl^ obj = gcnew Fl();
+	obj->Show();
 }
 private: System::Void button61_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pb obj;
-	obj.ShowDialog();
+	Pb^ obj = gcnew Pb();
+	obj->Show();
 }
 private: System::Void button62_Click(System::Object^ sender, System::EventArgs^ e) {
-	Sn obj;
-	obj.ShowDialog();
+	Sn^ obj = gcnew Sn();
+	obj->Show();
 }
 private: System::Void button63_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ge obj;
-	obj.ShowDialog();
+	Ge^ obj = gcnew Ge();
+	obj->Show();
 }
 private: System::Void button64_Click(System::Object^ sender, System::EventArgs^ e) {
-	Si obj;
-	obj.ShowDialog();
+	Si^ obj = gcnew Si();
+	obj->Show();
 }
 private: System::Void button65_Click(System::Object^ sender, System::EventArgs^ e) {
-	C obj;
-	obj.ShowDialog();
+	C^ obj = gcnew C();
+	obj->Show();
 }
 private: System::Void button66_Click(System::Object^ sender, System::EventArgs^ e) {
-	Mc obj;
-	obj.ShowDialog();
+	Mc^ obj = gcnew Mc();
+	obj->Show();
 }
 private: System::Void button67_Click(System::Object^ sender, System::EventArgs^ e) {
-	Bi obj;
-	obj.ShowDialog();
+	Bi^ obj = gcnew Bi();
+	obj->Show();
 }
 private: System::Void button68_Click(System::Object^ sender, System::EventArgs^ e) {
-	Sb obj;
-	obj.ShowDialog();
+	Sb^ obj = gcnew Sb();
+	obj->Show();
 }
 private: System::Void button69_Click(System::Object^ sender, System::EventArgs^ e) {
-	As obj;
-	obj.ShowDialog();
+	As^ obj = gcnew As();
+	obj->Show();
 }
 private: System::Void button70_Click(System::Object^ sender, System::EventArgs^ e) {
-	P obj;
-	obj.ShowDialog();
+	P^ obj = gcnew P();
+	obj->Show();
 }
 private: System::Void button71_Click(System::Object^ sender, System::EventArgs^ e) {
-	N obj;
-	obj.ShowDialog();
+	N^ obj = gcnew N();
+	obj->Show();
 }
 private: System::Void button72_Click(System::Object^ sender, System::EventArgs^ e) {
-	Lv obj;
-	obj.ShowDialog();
+	Lv^ obj = gcnew Lv();
+	obj->Show();
 }
 private: System::Void button73_Click(System::Object^ sender, System::EventArgs^ e) {
-	Po obj;
-	obj.ShowDialog();
+	Po^ obj = gcnew Po();
+	obj->Show();
 }
 private: System::Void button74_Click(System::Object^ sender, System::EventArgs^ e) {
-	Te obj;
-	obj.ShowDialog();
+	Te^ obj = gcnew Te();
+	obj->Show();
 }
 private: System::Void button75_Click(System::Object^ sender, System::EventArgs^ e) {
-	Se obj;
-	obj.ShowDialog();
+	Se^ obj = gcnew Se();
+	obj->Show();
 }
 private: System::Void button76_Click(System::Object^ sender, System::EventArgs^ e) {
-	S obj;
-	obj.ShowDialog();
+	S^ obj = gcnew S();
+	obj->Show();
 }
 private: System::Void button77_Click(System::Object^ sender, System::EventArgs^ e) {
-	O obj;
-	obj.ShowDialog();
+	O^ obj = gcnew O();
+	obj->Show();
 }
 private: System::Void button78_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ts obj;
-	obj.ShowDialog();
+	Ts^ obj = gcnew Ts();
+	obj->Show();
 }
 private: System::Void button79_Click(System::Object^ sender, System::EventArgs^ e) {
-	At obj;
-	obj.ShowDialog();
+	At^ obj = gcnew At();
+	obj->Show();
 }
 private: System::Void button80_Click(System::Object^ sender, System::EventArgs^ e) {
-	I obj;
-	obj.ShowDialog();
+	I^ obj = gcnew I();
+	obj->Show();
 }
 private: System::Void button81_Click(System::Object^ sender, System::EventArgs^ e) {
-	Br obj;
-	obj.ShowDialog();
+	Br^ obj = gcnew Br();
+	obj->Show();
 }
 private: System::Void button82_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cl obj;
-	obj.ShowDialog();
+	Cl^ obj = gcnew Cl();
+	obj->Show();//
 }
 private: System::Void button83_Click(System::Object^ sender, System::EventArgs^ e) {
-	F obj;
-	obj.ShowDialog();
+	F^ obj = gcnew F();
+	obj->Show();
 }
 private: System::Void button84_Click(System::Object^ sender, System::EventArgs^ e) {
-	Og obj;
-	obj.ShowDialog();
+	Og^ obj = gcnew Og();
+	obj->Show();
 }
 private: System::Void button85_Click(System::Object^ sender, System::EventArgs^ e) {
-	Rn obj;
-	obj.ShowDialog();
+	Rn^ obj = gcnew Rn();
+	obj->Show();
 }
 private: System::Void button86_Click(System::Object^ sender, System::EventArgs^ e) {
-	Xe obj;
-	obj.ShowDialog();
+	Xe^ obj = gcnew Xe();
+	obj->Show();
 }
 private: System::Void button87_Click(System::Object^ sender, System::EventArgs^ e) {
-	Kr obj;
-	obj.ShowDialog();
+	Kr^ obj = gcnew Kr();
+	obj->Show();
 }
 private: System::Void button88_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ar obj;
-	obj.ShowDialog();
+	Ar^ obj = gcnew Ar();
+	obj->Show();
 }
 private: System::Void button89_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ne obj;
-	obj.ShowDialog();
+	Ne^ obj = gcnew Ne();
+	obj->Show();
 }
 private: System::Void button90_Click(System::Object^ sender, System::EventArgs^ e) {
-	He obj;
-	obj.ShowDialog();
+	He^ obj = gcnew He();
+	obj->Show();
 }
 private: System::Void button91_Click(System::Object^ sender, System::EventArgs^ e) {
-	Lr obj;
-	obj.ShowDialog();
+	Lr^ obj = gcnew Lr();
+	obj->Show();
 }
 private: System::Void button92_Click(System::Object^ sender, System::EventArgs^ e) {
-	Lu obj;
-	obj.ShowDialog();
+	Lu^ obj = gcnew Lu();
+	obj->Show();
 }
 private: System::Void button93_Click(System::Object^ sender, System::EventArgs^ e) {
-	Th obj;
-	obj.ShowDialog();
+	Th^ obj = gcnew Th();
+	obj->Show();
 }
 private: System::Void button94_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ce obj;
-	obj.ShowDialog();
+	Ce^ obj = gcnew Ce();
+	obj->Show();
 }
 private: System::Void button95_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pa obj;
-	obj.ShowDialog();
+	Pa^ obj = gcnew Pa();
+	obj->Show();
 }
 private: System::Void button96_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pr obj;
-	obj.ShowDialog();
+	Pr^ obj = gcnew Pr();
+	obj->Show();
 }
 private: System::Void button97_Click(System::Object^ sender, System::EventArgs^ e) {
-	U obj;
-	obj.ShowDialog();
+	U^ obj = gcnew U();
+	obj->Show();
 }
 private: System::Void button98_Click(System::Object^ sender, System::EventArgs^ e) {
-	Nd obj;
-	obj.ShowDialog();
+	Nd^ obj = gcnew Nd();
+	obj->Show();
 }
 private: System::Void button99_Click(System::Object^ sender, System::EventArgs^ e) {
-	Np obj;
-	obj.ShowDialog();
+	Np^ obj = gcnew Np();
+	obj->Show();
 }
 private: System::Void button100_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pm obj;
-	obj.ShowDialog();
+	Pm^ obj = gcnew Pm();
+	obj->Show();
 }
 private: System::Void button101_Click(System::Object^ sender, System::EventArgs^ e) {
-	Pu obj;
-	obj.ShowDialog();
+	Pu^ obj = gcnew Pu();
+	obj->Show();
 }
 private: System::Void button102_Click(System::Object^ sender, System::EventArgs^ e) {
-	Sm obj;
-	obj.ShowDialog();
+	Sm^ obj = gcnew Sm();
+	obj->Show();
 }
 private: System::Void button103_Click(System::Object^ sender, System::EventArgs^ e) {
-	Am obj;
-	obj.ShowDialog();
+	Am^ obj = gcnew Am();
+	obj->Show();
 }
 private: System::Void button104_Click(System::Object^ sender, System::EventArgs^ e) {
-	Eu obj;
-	obj.ShowDialog();
+	Eu^ obj = gcnew Eu();
+	obj->Show();
 }
 private: System::Void button105_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cm obj;
-	obj.ShowDialog();
+	Cm^ obj = gcnew Cm();
+	obj->Show();
 }
 private: System::Void button106_Click(System::Object^ sender, System::EventArgs^ e) {
-	Gd obj;
-	obj.ShowDialog();
+	Gd^ obj = gcnew Gd();
+	obj->Show();
 }
 private: System::Void button107_Click(System::Object^ sender, System::EventArgs^ e) {
-	Bk obj;
-	obj.ShowDialog();
+	Bk^ obj = gcnew Bk();
+	obj->Show();
 }
 private: System::Void button108_Click(System::Object^ sender, System::EventArgs^ e) {
-	Tb obj;
-	obj.ShowDialog();
+	Tb^ obj = gcnew Tb();
+	obj->Show();
 }
 private: System::Void button109_Click(System::Object^ sender, System::EventArgs^ e) {
-	Cf obj;
-	obj.ShowDialog();
+	Cf^ obj = gcnew Cf();
+	obj->Show();	
 }
 private: System::Void button110_Click(System::Object^ sender, System::EventArgs^ e) {
-	Dy obj;
-	obj.ShowDialog();
+	Dy^ obj = gcnew Dy();
+	obj->Show();
 }
 private: System::Void button111_Click(System::Object^ sender, System::EventArgs^ e) {
-	Es obj;
-	obj.ShowDialog();
+	Es^ obj = gcnew Es();
+	obj->Show();
 }
 private: System::Void button112_Click(System::Object^ sender, System::EventArgs^ e) {
-	Ho obj;
-	obj.ShowDialog();
+	Ho^ obj = gcnew Ho();
+	obj->Show();
 }
 private: System::Void button113_Click(System::Object^ sender, System::EventArgs^ e) {
-	Fm obj;
-	obj.ShowDialog();
+	Fm^ obj = gcnew Fm();
+	obj->Show();
 }
 private: System::Void button114_Click(System::Object^ sender, System::EventArgs^ e) {
-	Er obj;
-	obj.ShowDialog();
+	Er^ obj = gcnew Er();
+	obj->Show();
 }
 private: System::Void button115_Click(System::Object^ sender, System::EventArgs^ e) {
-	Md obj;
-	obj.ShowDialog();
+	Md^ obj = gcnew Md();
+	obj->Show();
 }
 private: System::Void button116_Click(System::Object^ sender, System::EventArgs^ e) {
-	Tm obj;
-	obj.ShowDialog();
+	Tm^ obj = gcnew Tm();
+	obj->Show();
 }
 private: System::Void button117_Click(System::Object^ sender, System::EventArgs^ e) {
-	No obj;
-	obj.ShowDialog();
+	No^ obj = gcnew No();
+	obj->Show();
 }
 private: System::Void button118_Click(System::Object^ sender, System::EventArgs^ e) {
-	Yb obj;
-	obj.ShowDialog();
+	Yb^ obj = gcnew Yb();
+	obj->Show();
 }
 };
 }
