@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{73FCE771-EE2C-4B22-BD59-F4422AA1F47A}</ProjectGuid>
+    <EnableManagedPackageReferenceSupport>true</EnableManagedPackageReferenceSupport>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>Preodic</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies />
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Ac.cpp" />
+    <ClCompile Include="Ag.cpp" />
+    <ClCompile Include="Al.cpp" />
+    <ClCompile Include="Am.cpp" />
+    <ClCompile Include="Ar.cpp" />
+    <ClCompile Include="As.cpp" />
+    <ClCompile Include="At.cpp" />
+    <ClCompile Include="Au.cpp" />
+    <ClCompile Include="B.cpp" />
+    <ClCompile Include="Ba.cpp" />
+    <ClCompile Include="Be.cpp" />
+    <ClCompile Include="Bh.cpp" />
+    <ClCompile Include="Bi.cpp" />
+    <ClCompile Include="Bk.cpp" />
+    <ClCompile Include="Br.cpp" />
+    <ClCompile Include="C.cpp" />
+    <ClCompile Include="Ca.cpp" />
+    <ClCompile Include="Cd.cpp" />
+    <ClCompile Include="Ce.cpp" />
+    <ClCompile Include="Cf.cpp" />
+    <ClCompile Include="Cl.cpp" />
+    <ClCompile Include="Cm.cpp" />
+    <ClCompile Include="Cn.cpp" />
+    <ClCompile Include="Co.cpp" />
+    <ClCompile Include="Cr.cpp" />
+    <ClCompile Include="CS.cpp" />
+    <ClCompile Include="Cu.cpp" />
+    <ClCompile Include="Db.cpp" />
+    <ClCompile Include="Ds.cpp" />
+    <ClCompile Include="Dy.cpp" />
+    <ClCompile Include="Er.cpp" />
+    <ClCompile Include="Es.cpp" />
+    <ClCompile Include="Eu.cpp" />
+    <ClCompile Include="F.cpp" />
+    <ClCompile Include="Fe.cpp" />
+    <ClCompile Include="Fl.cpp" />
+    <ClCompile Include="Fm.cpp" />
+    <ClCompile Include="Fr.cpp" />
+    <ClCompile Include="Ga.cpp" />
+    <ClCompile Include="Gd.cpp" />
+    <ClCompile Include="Ge.cpp" />
+    <ClCompile Include="He.cpp" />
+    <ClCompile Include="H.cpp" />
+    <ClCompile Include="Hf.cpp" />
+    <ClCompile Include="Hg.cpp" />
+    <ClCompile Include="Ho.cpp" />
+    <ClCompile Include="Hs.cpp" />
+    <ClCompile Include="I.cpp" />
+    <ClCompile Include="In.cpp" />
+    <ClCompile Include="Ir.cpp" />
+    <ClCompile Include="Kali.cpp" />
+    <ClCompile Include="Kr.cpp" />
+    <ClCompile Include="La.cpp" />
+    <ClCompile Include="Liti.cpp" />
+    <ClCompile Include="Lr.cpp" />
+    <ClCompile Include="Lu.cpp" />
+    <ClCompile Include="Lv.cpp" />
+    <ClCompile Include="Mc.cpp" />
+    <ClCompile Include="Md.cpp" />
+    <ClCompile Include="Mn.cpp" />
+    <ClCompile Include="Mo.cpp" />
+    <ClCompile Include="Mt.cpp" />
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="N.cpp" />
+    <ClCompile Include="Natri.cpp" />
+    <ClCompile Include="Mg.cpp" />
+    <ClCompile Include="Nb.cpp" />
+    <ClCompile Include="Nd.cpp" />
+    <ClCompile Include="Ne.cpp" />
+    <ClCompile Include="Nh.cpp" />
+    <ClCompile Include="Ni.cpp" />
+    <ClCompile Include="No.cpp" />
+    <ClCompile Include="Np.cpp" />
+    <ClCompile Include="O.cpp" />
+    <ClCompile Include="Og.cpp" />
+    <ClCompile Include="Os.cpp" />
+    <ClCompile Include="P.cpp" />
+    <ClCompile Include="Pa.cpp" />
+    <ClCompile Include="Pb.cpp" />
+    <ClCompile Include="Pd.cpp" />
+    <ClCompile Include="Pm.cpp" />
+    <ClCompile Include="Po.cpp" />
+    <ClCompile Include="Pr.cpp" />
+    <ClCompile Include="Pt.cpp" />
+    <ClCompile Include="Pu.cpp" />
+    <ClCompile Include="Ra.cpp" />
+    <ClCompile Include="Rb.cpp" />
+    <ClCompile Include="Re.cpp" />
+    <ClCompile Include="Rf.cpp" />
+    <ClCompile Include="Rg.cpp" />
+    <ClCompile Include="Rh.cpp" />
+    <ClCompile Include="Rn.cpp" />
+    <ClCompile Include="Ru.cpp" />
+    <ClCompile Include="S.cpp" />
+    <ClCompile Include="Sb.cpp" />
+    <ClCompile Include="Sc.cpp" />
+    <ClCompile Include="Se.cpp" />
+    <ClCompile Include="Sg.cpp" />
+    <ClCompile Include="Si.cpp" />
+    <ClCompile Include="Sm.cpp" />
+    <ClCompile Include="Sn.cpp" />
+    <ClCompile Include="Sr.cpp" />
+    <ClCompile Include="Ta.cpp" />
+    <ClCompile Include="Tb.cpp" />
+    <ClCompile Include="Tc.cpp" />
+    <ClCompile Include="Te.cpp" />
+    <ClCompile Include="Th.cpp" />
+    <ClCompile Include="Ti.cpp" />
+    <ClCompile Include="Tl.cpp" />
+    <ClCompile Include="Tm.cpp" />
+    <ClCompile Include="Ts.cpp" />
+    <ClCompile Include="U.cpp" />
+    <ClCompile Include="V.cpp" />
+    <ClCompile Include="W.cpp" />
+    <ClCompile Include="Xe.cpp" />
+    <ClCompile Include="Y.cpp" />
+    <ClCompile Include="Yb.cpp" />
+    <ClCompile Include="Zn.cpp" />
+    <ClCompile Include="Zr.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Ac.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ag.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Al.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Am.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ar.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="As.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="At.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Au.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="B.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ba.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Be.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Bh.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Bi.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Bk.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Br.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="C.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ca.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ce.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cf.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cl.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Co.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="CS.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Cu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Db.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ds.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Dy.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Elements_Index.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Er.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Es.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Eu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="F.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Fe.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Fl.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Fm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Fr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ga.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Gd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ge.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="He.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="H.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hf.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hg.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ho.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Hs.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="I.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="In.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ir.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Kali.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Kr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="La.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Liti.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Lv.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mc.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Md.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mo.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mt.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="N.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Natri.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Mg.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nb.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ne.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Nh.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ni.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="No.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Np.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="O.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Og.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Os.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="P.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pa.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pb.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pd.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Po.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pt.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Pu.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ra.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rb.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Re.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rf.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rg.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rh.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Rn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ru.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="S.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sb.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sc.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Se.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sg.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Si.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Sr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ta.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tb.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tc.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Te.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Th.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ti.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tl.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Tm.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Ts.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="U.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="V.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="W.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Xe.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Y.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Yb.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Zn.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Zr.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Ac.resx">
+      <DependentUpon>Ac.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cm.resx">
+      <DependentUpon>Cm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dy.resx">
+      <DependentUpon>Dy.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Elements_Index.resx">
+      <DependentUpon>Elements_Index.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="H.resx">
+      <DependentUpon>H.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="He.resx">
+      <DependentUpon>He.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
