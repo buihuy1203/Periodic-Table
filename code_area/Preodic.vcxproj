@@ -605,8 +605,89 @@
     <EmbeddedResource Include="Ac.resx">
       <DependentUpon>Ac.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Ag.resx">
+      <DependentUpon>Ag.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Al.resx">
+      <DependentUpon>Al.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Am.resx">
+      <DependentUpon>Am.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ar.resx">
+      <DependentUpon>Ar.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="As.resx">
+      <DependentUpon>As.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="At.resx">
+      <DependentUpon>At.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Au.resx">
+      <DependentUpon>Au.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="B.resx">
+      <DependentUpon>B.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ba.resx">
+      <DependentUpon>Ba.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Be.resx">
+      <DependentUpon>Be.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bh.resx">
+      <DependentUpon>Bh.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bi.resx">
+      <DependentUpon>Bi.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bk.resx">
+      <DependentUpon>Bk.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Br.resx">
+      <DependentUpon>Br.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C.resx">
+      <DependentUpon>C.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ca.resx">
+      <DependentUpon>Ca.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cd.resx">
+      <DependentUpon>Cd.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ce.resx">
+      <DependentUpon>Ce.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cf.resx">
+      <DependentUpon>Cf.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cl.resx">
+      <DependentUpon>Cl.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cm.resx">
       <DependentUpon>Cm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cn.resx">
+      <DependentUpon>Cn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Co.resx">
+      <DependentUpon>Co.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cr.resx">
+      <DependentUpon>Cr.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CS.resx">
+      <DependentUpon>CS.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cu.resx">
+      <DependentUpon>Cu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Db.resx">
+      <DependentUpon>Db.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ds.resx">
+      <DependentUpon>Ds.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dy.resx">
       <DependentUpon>Dy.h</DependentUpon>
@@ -614,11 +695,269 @@
     <EmbeddedResource Include="Elements_Index.resx">
       <DependentUpon>Elements_Index.h</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Er.resx">
+      <DependentUpon>Er.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Es.resx">
+      <DependentUpon>Es.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eu.resx">
+      <DependentUpon>Eu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F.resx">
+      <DependentUpon>F.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fe.resx">
+      <DependentUpon>Fe.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fl.resx">
+      <DependentUpon>Fl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fm.resx">
+      <DependentUpon>Fm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fr.resx">
+      <DependentUpon>Fr.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ga.resx">
+      <DependentUpon>Ga.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Gd.resx">
+      <DependentUpon>Gd.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ge.resx">
+      <DependentUpon>Ge.h</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="H.resx">
       <DependentUpon>H.h</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="He.resx">
       <DependentUpon>He.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hf.resx">
+      <DependentUpon>Hf.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hg.resx">
+      <DependentUpon>Hg.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ho.resx">
+      <DependentUpon>Ho.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hs.resx">
+      <DependentUpon>Hs.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="I.resx">
+      <DependentUpon>I.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="In.resx">
+      <DependentUpon>In.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ir.resx">
+      <DependentUpon>Ir.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kali.resx">
+      <DependentUpon>Kali.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kr.resx">
+      <DependentUpon>Kr.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="La.resx">
+      <DependentUpon>La.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liti.resx">
+      <DependentUpon>Liti.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lr.resx">
+      <DependentUpon>Lr.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lu.resx">
+      <DependentUpon>Lu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lv.resx">
+      <DependentUpon>Lv.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mc.resx">
+      <DependentUpon>Mc.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Md.resx">
+      <DependentUpon>Md.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mg.resx">
+      <DependentUpon>Mg.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mn.resx">
+      <DependentUpon>Mn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mo.resx">
+      <DependentUpon>Mo.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mt.resx">
+      <DependentUpon>Mt.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="N.resx">
+      <DependentUpon>N.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Natri.resx">
+      <DependentUpon>Natri.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nb.resx">
+      <DependentUpon>Nb.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nd.resx">
+      <DependentUpon>Nd.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ne.resx">
+      <DependentUpon>Ne.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Nh.resx">
+      <DependentUpon>Nh.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ni.resx">
+      <DependentUpon>Ni.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="No.resx">
+      <DependentUpon>No.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Np.resx">
+      <DependentUpon>Np.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="O.resx">
+      <DependentUpon>O.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Og.resx">
+      <DependentUpon>Og.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Os.resx">
+      <DependentUpon>Os.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="P.resx">
+      <DependentUpon>P.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pa.resx">
+      <DependentUpon>Pa.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pb.resx">
+      <DependentUpon>Pb.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pd.resx">
+      <DependentUpon>Pd.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pm.resx">
+      <DependentUpon>Pm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Po.resx">
+      <DependentUpon>Po.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pr.resx">
+      <DependentUpon>Pr.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pt.resx">
+      <DependentUpon>Pt.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pu.resx">
+      <DependentUpon>Pu.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ra.resx">
+      <DependentUpon>Ra.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rb.resx">
+      <DependentUpon>Rb.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Re.resx">
+      <DependentUpon>Re.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rf.resx">
+      <DependentUpon>Rf.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rg.resx">
+      <DependentUpon>Rg.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rh.resx">
+      <DependentUpon>Rh.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rn.resx">
+      <DependentUpon>Rn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ru.resx">
+      <DependentUpon>Ru.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="S.resx">
+      <DependentUpon>S.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sb.resx">
+      <DependentUpon>Sb.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sc.resx">
+      <DependentUpon>Sc.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Se.resx">
+      <DependentUpon>Se.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sg.resx">
+      <DependentUpon>Sg.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Si.resx">
+      <DependentUpon>Si.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sm.resx">
+      <DependentUpon>Sm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sn.resx">
+      <DependentUpon>Sn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sr.resx">
+      <DependentUpon>Sr.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ta.resx">
+      <DependentUpon>Ta.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tb.resx">
+      <DependentUpon>Tb.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tc.resx">
+      <DependentUpon>Tc.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Te.resx">
+      <DependentUpon>Te.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Th.resx">
+      <DependentUpon>Th.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ti.resx">
+      <DependentUpon>Ti.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tl.resx">
+      <DependentUpon>Tl.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tm.resx">
+      <DependentUpon>Tm.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ts.resx">
+      <DependentUpon>Ts.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="U.resx">
+      <DependentUpon>U.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="V.resx">
+      <DependentUpon>V.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="W.resx">
+      <DependentUpon>W.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Xe.resx">
+      <DependentUpon>Xe.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Y.resx">
+      <DependentUpon>Y.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Yb.resx">
+      <DependentUpon>Yb.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zn.resx">
+      <DependentUpon>Zn.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zr.resx">
+      <DependentUpon>Zr.h</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

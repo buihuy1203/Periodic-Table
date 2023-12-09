@@ -50,27 +50,32 @@ namespace Preodic {
 		/// </summary>
 		void InitializeComponent(void)
 		{
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Ac::typeid));
 			this->label1 = (gcnew System::Windows::Forms::Label());
 			this->SuspendLayout();
 			// 
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(236, 87);
+			this->label1->Location = System::Drawing::Point(177, 71);
+			this->label1->Margin = System::Windows::Forms::Padding(2, 0, 2, 0);
 			this->label1->Name = L"label1";
-			this->label1->Size = System::Drawing::Size(79, 16);
+			this->label1->Size = System::Drawing::Size(0, 13);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Em dep lam";
 			this->label1->Click += gcnew System::EventHandler(this, &Ac::label1_Click);
 			// 
 			// Ac
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(8, 16);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(577, 328);
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1264, 681);
 			this->Controls->Add(this->label1);
+			this->Margin = System::Windows::Forms::Padding(2, 2, 2, 2);
 			this->Name = L"Ac";
 			this->ShowInTaskbar = false;
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"Ac";
 			this->ResumeLayout(false);
 			this->PerformLayout();

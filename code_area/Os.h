@@ -48,11 +48,20 @@ namespace Preodic {
 		/// </summary>
 		void InitializeComponent(void)
 		{
-			this->components = gcnew System::ComponentModel::Container();
-			this->Size = System::Drawing::Size(300,300);
-			this->Text = L"Os";
-			this->Padding = System::Windows::Forms::Padding(0);
+			System::ComponentModel::ComponentResourceManager^ resources = (gcnew System::ComponentModel::ComponentResourceManager(Os::typeid));
+			this->SuspendLayout();
+			// 
+			// Os
+			// 
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
+			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
+			this->ClientSize = System::Drawing::Size(1192, 681);
+			this->Name = L"Os";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
+			this->Text = L"Os";
+			this->ResumeLayout(false);
+
 		}
 #pragma endregion
 	};

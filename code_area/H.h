@@ -57,16 +57,17 @@ namespace Preodic {
 			// 
 			// H
 			// 
-			this->AutoScaleDimensions = System::Drawing::SizeF(12, 25);
+			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
 			this->AutoSize = true;
 			this->BackgroundImage = (cli::safe_cast<System::Drawing::Image^>(resources->GetObject(L"$this.BackgroundImage")));
-			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Zoom;
-			this->ClientSize = System::Drawing::Size(1893, 1052);
+			this->BackgroundImageLayout = System::Windows::Forms::ImageLayout::Stretch;
+			this->ClientSize = System::Drawing::Size(1264, 681);
 			this->FormBorderStyle = System::Windows::Forms::FormBorderStyle::FixedSingle;
-			this->Margin = System::Windows::Forms::Padding(4, 5, 4, 5);
+			this->Margin = System::Windows::Forms::Padding(2, 3, 2, 3);
 			this->MaximizeBox = false;
 			this->Name = L"H";
+			this->StartPosition = System::Windows::Forms::FormStartPosition::CenterScreen;
 			this->Text = L"H";
 			this->Load += gcnew System::EventHandler(this, &H::H_Load);
 			this->ResumeLayout(false);
