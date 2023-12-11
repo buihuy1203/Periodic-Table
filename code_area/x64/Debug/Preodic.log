@@ -1,0 +1,6 @@
+﻿  MyForm.cpp
+C:\Users\trant\OneDrive\Máy tính\project_C\code_area\MyForm.cpp(6,33): warning C4829: Possibly incorrect parameters to function main. Consider 'int main(Platform::Array<Platform::String^>^ argv)'
+  Np.cpp
+  Generating Code...
+  Ac.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Preodic.vcxproj -> C:\Users\trant\OneDrive\Máy tính\project_C\code_area\x64\Debug\Preodic.exe
