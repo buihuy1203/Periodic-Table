@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+
 # Periodic Table
 A Periodic Table App using C++ and .NET framework.
 # How to download 
-Download the x64 file and you are ready to go. Choose Preodic.exe to run the app.
+Download the Debug file and you are ready to go. Choose Preodic.exe to run the app.
 # Inside the app
 The app will have two types of view: \
 ![Grid view](https://github.com/buihuy1203/Periodic-Table/assets/85066488/63345f72-3243-4622-94ac-3eda41e1fc45)
