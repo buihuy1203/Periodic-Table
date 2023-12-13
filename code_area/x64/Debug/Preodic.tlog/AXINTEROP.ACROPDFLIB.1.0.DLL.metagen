@@ -1,0 +1,55 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly AxInterop.AcroPDFLib.1.0, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Interop.AcroPDFLib.1.0, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AxAcroPDFLib.AxAcroPDF: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.AxHost
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Properties:
+    System.String src 'get set' : 
+    System.Object messageHandler 'get set' : 
+  Methods:
+    get_src(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_src(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    get_messageHandler(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_messageHandler(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    LoadFile(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setShowToolbar(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoFirstPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoLastPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoNextPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoPreviousPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setCurrentPage(Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    goForwardStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    goBackwardStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setPageMode(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setLayoutMode(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setNamedDest(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Print(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printWithDialog(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setZoom(Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setZoomScroll(Single, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setView(String): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setViewScroll(String, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setViewRect(Single, Single, Single, Single): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printPages(Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printPagesFit(Int32, Int32, Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printAll(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printAllFit(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setShowScrollbars(Boolean): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetVersions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setCurrentHightlight(Int32, Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setCurrentHighlight(Int32, Int32, Int32, Int32): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    postMessage(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    execCommand(Object): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Class AxAcroPDFLib.AxAcroPDFEventMulticaster: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(AxAcroPDFLib.AxAcroPDF): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    AcroPDFLib._IAcroPDFEvents
