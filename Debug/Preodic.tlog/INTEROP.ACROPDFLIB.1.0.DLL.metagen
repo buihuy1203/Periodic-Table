@@ -1,0 +1,164 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Interop.AcroPDFLib.1.0, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Interface AcroPDFLib._IAcroPDFEvents: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+Interface AcroPDFLib._IAcroAXDocShimEvents: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    OnError(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    OnMessage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class AcroPDFLib.AcroPDFClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    AcroPDFLib.IAcroAXDocShim
+    AcroPDFLib.AcroPDF
+    AcroPDFLib._IAcroPDFEvents_Event
+    AcroPDFLib.IAcroPDF
+    AcroPDFLib.ISPOpenDocuments
+    AcroPDFLib._IAcroAXDocShimEvents
+  Properties:
+    System.String src 'get set' : 
+    System.Object messageHandler 'get set' : 
+  Methods:
+    get_src(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_src(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    LoadFile(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setShowToolbar(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoFirstPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoLastPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoNextPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    gotoPreviousPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setCurrentPage(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    goForwardStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    goBackwardStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setPageMode(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setLayoutMode(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setNamedDest(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Print(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printWithDialog(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setZoom(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setZoomScroll(Single(In), Single(In), Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setView(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setViewScroll(String(In, HasFieldMarshal), Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setViewRect(Single(In), Single(In), Single(In), Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printPages(Int32(In), Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printPagesFit(Int32(In), Int32(In), Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printAll(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    printAllFit(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setShowScrollbars(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    GetVersions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setCurrentHightlight(Int32(In), Int32(In), Int32(In), Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    setCurrentHighlight(Int32(In), Int32(In), Int32(In), Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    postMessage(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    get_messageHandler(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    set_messageHandler(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, SpecialName
+    execCommand(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewDocument(String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewDocument3(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Int32(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CheckinDocument(String(In, HasFieldMarshal), Int32(In), String(In, HasFieldMarshal), Boolean(In, Optional)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CheckoutDocumentPrompt(String(In, HasFieldMarshal), Boolean(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateNewDocument(String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateNewDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DiscardLocalCheckout(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditDocument(String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditDocument3(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Boolean(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    NewBlogPost(String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PromptedOnLastOpen(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewInExcel(String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), Int32(In), Int32(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnError(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    OnMessage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface AcroPDFLib._IAcroPDFEvents_Event: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract
+Interface AcroPDFLib.AcroPDF: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    AcroPDFLib.IAcroAXDocShim
+    AcroPDFLib._IAcroPDFEvents_Event
+Interface AcroPDFLib.IAcroPDF: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+Interface AcroPDFLib.IAcroAXDocShim: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Properties:
+    System.String src 'get set' : 
+    System.Object messageHandler 'get set' : 
+  Methods:
+    get_src(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_src(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    LoadFile(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setShowToolbar(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    gotoFirstPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    gotoLastPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    gotoNextPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    gotoPreviousPage(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setCurrentPage(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    goForwardStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    goBackwardStack(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setPageMode(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setLayoutMode(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setNamedDest(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Print(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    printWithDialog(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setZoom(Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setZoomScroll(Single(In), Single(In), Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setView(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setViewScroll(String(In, HasFieldMarshal), Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setViewRect(Single(In), Single(In), Single(In), Single(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    printPages(Int32(In), Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    printPagesFit(Int32(In), Int32(In), Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    printAll(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    printAllFit(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setShowScrollbars(Boolean(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetVersions(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setCurrentHightlight(Int32(In), Int32(In), Int32(In), Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    setCurrentHighlight(Int32(In), Int32(In), Int32(In), Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    postMessage(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    get_messageHandler(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    set_messageHandler(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract, SpecialName
+    execCommand(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface AcroPDFLib.ISPOpenDocuments: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    ViewDocument(String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ViewDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ViewDocument3(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Int32(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CheckinDocument(String(In, HasFieldMarshal), Int32(In), String(In, HasFieldMarshal), Boolean(In, Optional)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CheckoutDocumentPrompt(String(In, HasFieldMarshal), Boolean(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateNewDocument(String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CreateNewDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DiscardLocalCheckout(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EditDocument(String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EditDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    EditDocument3(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Boolean(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    NewBlogPost(String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PromptedOnLastOpen(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    ViewInExcel(String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), Int32(In), Int32(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Class AcroPDFLib.AdobeSPOpenDocumentsShimClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    AcroPDFLib.ISPOpenDocumentsShim
+    AcroPDFLib.AdobeSPOpenDocumentsShim
+    AcroPDFLib.ISPOpenDocuments
+  Methods:
+    ViewDocument(String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewDocument3(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Int32(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CheckinDocument(String(In, HasFieldMarshal), Int32(In), String(In, HasFieldMarshal), Boolean(In, Optional)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CheckoutDocumentPrompt(String(In, HasFieldMarshal), Boolean(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateNewDocument(String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    CreateNewDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DiscardLocalCheckout(String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditDocument(String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditDocument2(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    EditDocument3(Object(In, HasFieldMarshal), String(In, HasFieldMarshal), Boolean(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    NewBlogPost(String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    PromptedOnLastOpen(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    ViewInExcel(String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), String(In, HasFieldMarshal), Int32(In), Int32(In), Object(In, Optional, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface AcroPDFLib.AdobeSPOpenDocumentsShim: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    AcroPDFLib.ISPOpenDocumentsShim
+Interface AcroPDFLib.ISPOpenDocumentsShim: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+Class AcroPDFLib._IAcroPDFEvents_SinkHelper: AutoLayout, AnsiClass, Class, Public, Sealed
+  Interfaces:
+    AcroPDFLib._IAcroPDFEvents
+  Fields:
+    Int32 m_dwCookie : Public

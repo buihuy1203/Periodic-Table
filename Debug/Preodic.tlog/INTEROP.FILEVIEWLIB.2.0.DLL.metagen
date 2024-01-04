@@ -1,0 +1,144 @@
+ImageRuntimeVersion: v4.0.30319
+Assembly Interop.FileViewLib.2.0, Version=2.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class FileViewLib.HTMLPreviewClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    FileViewLib.IAdobePreviewHandler
+    FileViewLib.HTMLPreview
+    FileViewLib.IAdobeInitializeWithStream
+  Methods:
+    SetWindow(_RemotableHandle&(In), tagRECT&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetRect(tagRECT&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    DoPreview(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    Unload(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetFocus(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    QueryFocus(IntPtr(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    TranslateAccelerator(tagMSG&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetSecureMode(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    RemoteInitialize(IStream(In, HasFieldMarshal), UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface FileViewLib.HTMLPreview: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    FileViewLib.IAdobePreviewHandler
+Interface FileViewLib.IAdobePreviewHandler: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    SetWindow(_RemotableHandle&(In), tagRECT&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetRect(tagRECT&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    DoPreview(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Unload(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetFocus(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    QueryFocus(IntPtr(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    TranslateAccelerator(tagMSG&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetSecureMode(Int32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct FileViewLib._RemotableHandle: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 fContext : Public
+    FileViewLib.__MIDL_IWinTypes_0009 u : Public
+Struct FileViewLib.__MIDL_IWinTypes_0009: AutoLayout, AnsiClass, Class, Public, ExplicitLayout, Sealed
+  :System.ValueType
+  Fields:
+    Int32 hInproc : Public
+    Int32 hRemote : Public
+Struct FileViewLib.tagRECT: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 left : Public
+    Int32 top : Public
+    Int32 right : Public
+    Int32 bottom : Public
+Struct FileViewLib.tagMSG: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    IntPtr hwnd : Public
+    UInt32 message : Public
+    UInt32 wParam : Public
+    Int32 lParam : Public
+    UInt32 time : Public
+    FileViewLib.tagPOINT pt : Public
+Struct FileViewLib.tagPOINT: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int32 x : Public
+    Int32 y : Public
+Interface FileViewLib.IAdobeInitializeWithStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    RemoteInitialize(IStream(In, HasFieldMarshal), UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface FileViewLib.IStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    FileViewLib.ISequentialStream
+  Methods:
+    RemoteRead(Byte&(Out), UInt32(In), UInt32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoteWrite(Byte&(In), UInt32(In), UInt32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoteSeek(_LARGE_INTEGER(In), UInt32(In), _ULARGE_INTEGER&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetSize(_ULARGE_INTEGER(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoteCopyTo(IStream(In, HasFieldMarshal), _ULARGE_INTEGER(In), _ULARGE_INTEGER&(Out), _ULARGE_INTEGER&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Commit(UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Revert(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    LockRegion(_ULARGE_INTEGER(In), _ULARGE_INTEGER(In), UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    UnlockRegion(_ULARGE_INTEGER(In), _ULARGE_INTEGER(In), UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Stat(tagSTATSTG&(Out), UInt32(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    Clone(IStream&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface FileViewLib.ISequentialStream: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    RemoteRead(Byte&(Out), UInt32(In), UInt32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoteWrite(Byte&(In), UInt32(In), UInt32&(Out)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Struct FileViewLib._LARGE_INTEGER: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    Int64 QuadPart : Public
+Struct FileViewLib._ULARGE_INTEGER: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt64 QuadPart : Public
+Struct FileViewLib.tagSTATSTG: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    System.String pwcsName : Public, HasFieldMarshal
+    UInt32 type : Public
+    FileViewLib._ULARGE_INTEGER cbSize : Public
+    FileViewLib._FILETIME mtime : Public
+    FileViewLib._FILETIME ctime : Public
+    FileViewLib._FILETIME atime : Public
+    UInt32 grfMode : Public
+    UInt32 grfLocksSupported : Public
+    System.Guid clsid : Public
+    UInt32 grfStateBits : Public
+    UInt32 reserved : Public
+Struct FileViewLib._FILETIME: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+  Fields:
+    UInt32 dwLowDateTime : Public
+    UInt32 dwHighDateTime : Public
+Class FileViewLib.BitmapFactoryClass: AutoLayout, AnsiClass, Class, Public, Import
+  :System.__ComObject
+    Void .ctor(): PrivateScope, Public, SpecialName, RTSpecialName
+  Interfaces:
+    FileViewLib.IBitmapFactory
+    FileViewLib.BitmapFactory
+  Methods:
+    GetBitmapProvider(String(In, HasFieldMarshal), IBitmapProvider&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+    SetBrokerClient(Byte&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask
+Interface FileViewLib.BitmapFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Interfaces:
+    FileViewLib.IBitmapFactory
+Interface FileViewLib.IBitmapFactory: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    GetBitmapProvider(String(In, HasFieldMarshal), IBitmapProvider&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    SetBrokerClient(Byte&(In)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface FileViewLib.IBitmapProvider: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    RequestPageCount(IBitmapConsumer(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RequestPageNames(IBitmapConsumer(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RequestBitmap(UInt32(In), UInt32(In), UInt32(In), IBitmapConsumer(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CancelRequest(): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+Interface FileViewLib.IBitmapConsumer: AutoLayout, AnsiClass, Class, Public, ClassSemanticsMask, Abstract, Import
+  Methods:
+    PageCountResponse(UInt32(In), Int32(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    PageNamesResponse(Array(In, HasFieldMarshal), Int32(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    RemoteBitmapResponse(IStream(In, HasFieldMarshal), Int32(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    GetOpenAuthData(Array&(Out, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
+    CallAllowSetForegroundWindow(Object(In, HasFieldMarshal)): PrivateScope, Public, Virtual, HideBySig, VtableLayoutMask, Abstract
